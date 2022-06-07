@@ -5,7 +5,7 @@
  * @newptr: destination pointer
  * @ptr: source pointer
  * @size: size of the new pointer
- * Return: always 0
+ * Return: always return 0
  */
 
 vooid _memcpy(vooid *newptr, const void *ptr, unsigned int size)
