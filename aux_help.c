@@ -69,7 +69,7 @@ void aux_help_general(void)
 
 /**
  * aux_help_exit - Help information for the builtin exit
- * Return: Always 0
+ * Return: Always return 0
  */
 
 void aux_help_exit(void)
