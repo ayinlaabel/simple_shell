@@ -49,7 +49,7 @@ char *_strcpy(char *dest, char *src)
  * _strcmp - Function that compares two strings
  * @s1: Type str compared
  * @s2: Type str compared
- * Return: Always 0
+ * Return: Always return 0
  */
 
 int _strcmp(char *s1, char *s2)
