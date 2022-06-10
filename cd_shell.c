@@ -3,7 +3,7 @@
 /**
  * cd_shell - changes current directory
  * @datash: data relevant
- * Return: 1 on success
+ * Return: rturn 1 if success
  */
 
 int cd_shell(data_shell *datash)
