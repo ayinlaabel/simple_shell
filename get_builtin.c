@@ -5,6 +5,7 @@
  * @cmd: command
  * Return: function pointer of the builtin command
  */
+
 int (*get_builtin(char *cmd))(data_shell *)
 {
 	builtin_t builtin[] = {
@@ -16,6 +17,7 @@ int (*get_builtin(char *cmd))(data_shell *)
 		{ "help", get_help },
 		{ NULL, NULL }
 	};
+
 	int i;
 
 	for (i = 0; builtin[i].name; i++)
