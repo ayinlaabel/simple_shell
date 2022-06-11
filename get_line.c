@@ -40,7 +40,7 @@ void bring_line(char **lineptr, size_t *n, char *buffer, size_t j)
  * @lineptr: buffer that stores the input
  * @n: size of lineptr
  * @stream: stream to read from
- * Return: The number of bytes
+ * Return: The number of bytes in the input
  */
 
 ssize_t get_line(char **lineptr, size_t *n, FILE *stream)
@@ -82,15 +82,20 @@ ssize_t get_line(char **lineptr, size_t *n, FILE *stream)
 			buffer = _realloc(buffer, input, input + 1);
 
 		buffer[input] = t;
-		input++;
-																		}
+																					input++;
 
-	buffer[input] = '\0';
-	bring_line(lineptr, n, buffer, input);
-	retval = input;
+																												}
 
-	if (i != 0)
-		input = 0;
+													buffer[input] = '\0';
 
-	return (retval);
+														bring_line(lineptr, n, buffer, input);
+
+															retval = input;
+
+																if (i != 0)
+
+																			input = 0;
+
+																	return (retval);
+
 }
