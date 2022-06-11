@@ -3,7 +3,7 @@
 /**
  * free_data - frees data structure
  * @datash: data structure
- * Return: no return
+ * Return: always return 0
  */
 
 void free_data(data_shell *datash)
