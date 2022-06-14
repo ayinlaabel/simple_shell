@@ -14,7 +14,7 @@
 
  * @data: data structure
 
- * Return: no return
+ * Return: always return 0
 
  */
 
