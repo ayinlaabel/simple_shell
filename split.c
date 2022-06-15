@@ -12,7 +12,7 @@
 
  * @bool: type of swap
 
- * Return: swapped string
+ * Return: always return 0
 
  */
 
