@@ -134,7 +134,6 @@ char *replaced_input(r_var **head, char *input, char *new_input, int nlen)
 			j++;
 		}
 	}
-
 	return (new_input);
 }
 
