@@ -16,7 +16,7 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 	_strcat(error, ": ");
 	_strcat(error, ver_str);
 	_strcat(error, ": ");
-	_strcat (error, datash->args[0]);
+	_strcat(error, datash->args[0]);
 	_strcat(error, msg);
 	if (datash->args[1][0] == '-')
 	{
@@ -38,7 +38,7 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 }
 
 /**
- * error_ger_cd - error message for cd command in get_cd
+ * error_get_cd - error message for cd command in get_cd
  * @datash: data relevant
  * Return: error message
  */
@@ -109,7 +109,7 @@ char *error_not_found(data_shell *datash)
 
 /**
  * error_exit_shell - generic error message
- * @datashe: data relevant
+ * @datash: data relevant
  * Return: error message
  */
 
