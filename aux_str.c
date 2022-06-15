@@ -69,8 +69,8 @@ int _strcmp(char *s1, char *s2)
 
 /**
  * _strchr - locates a character in a string
- * @s - string
- * @c - character
+ * @s: string
+ * @c: character
  * Return: the pointer to the first occurrence
  */
 
@@ -103,13 +103,13 @@ int _strspn(char *s, char *accept)
 		bool = 1;
 		for (j = 0; *(accept + j) != '\0'; j++)
 		{
-			if(*s(s + i) == *(accept + j))
+			if (*s(s + i) == *(accept + j))
 			{
 				bool = 0;
 				break;
 			}
 		}
-		if (bool = 1)
+		if (bool == 1)
 			break;
 	}
 	return (i);
