@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * aux_help_evn - Help information for the builtin evn
+ * aux_help_env - Help information for the builtin evn
  * Retun: Always 0
  */
 
